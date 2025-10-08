@@ -3,29 +3,30 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   const projectList = [
+    // {
+    //   name: "E-Diary web application",
+    //   desc: "A web application for managing daily tasks and notes.",
+    //   tech: ["React", "Vite", "Framer Motion", "CSS3", "MySQL", "Express.js"],
+    //   preview: "/project1.jpg",
+    //   demo: "#",
+    //   github: "https://github.com/suliman-shah/e-dairy-App",
+    // },
     {
-      name: "Portfolio Website",
-      desc: "Modern responsive portfolio built with React.js and Vite.",
-      tech: ["React", "Vite", "Framer Motion", "CSS3"],
-      preview: "/project1.jpg",
-      demo: "#",
-      github: "#",
-    },
-    {
-      name: "Expense Tracker",
-      desc: "Full-stack expense tracking application with data visualization and budget planning features.",
+      name: "Construction Project Management System",
+      desc: "Developed a full-stack web application using React, Node.js, and MySQL for project management. Designed and implemented a database schema with efficient data relationships and SQL queries. Built RESTful APIs for backend services and integrated them with the frontend application. Implemented CRUD operations, data validation, and error handling following best practices.",
       tech: ["Node.js", "MongoDB", "Express", "React"],
       preview: "/project2.jpg",
-      demo: "#",
-      github: "#",
+      demo: "https://construction-project-management-system-c75v.vercel.app/",
+      github:
+        "https://github.com/suliman-shah/Construction-Project-Management-System",
     },
     {
-      name: "Unit Converter",
-      desc: "Modern web application for converting units across different metrics with real-time calculations.",
+      name: "QuantiFi",
+      desc: "QuantiFi is a modern React-based web application designed to streamline and enhance the quantification and evaluation process for recruiters. The platform provides intuitive tools for assessing candidate skills, calculating performance metrics, and generating actionable insights to assist in data-driven hiring decisions.",
       tech: ["JavaScript", "HTML5", "CSS3", "API"],
       preview: "/project3.jpg",
       demo: "#",
-      github: "#",
+      github: "https://github.com/suliman-shah/QuantiFi",
     },
   ];
 

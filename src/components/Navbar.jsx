@@ -46,7 +46,16 @@ const Navbar = () => {
 
         {/* Navbar Links */}
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-          {["home", "about", "skills", "projects", "contact"].map((section) => (
+          {[
+            "home",
+            "about",
+            "skills",
+            "experience",
+            "services",
+            "projects",
+            "testimonials",
+            "contact",
+          ].map((section) => (
             <li key={section}>
               <Link
                 to={section}

@@ -17,16 +17,20 @@ const SocialIcons = () => {
       transition={{ duration: 1, delay: 0.8 }}
     >
       <a
-        href="https://www.linkedin.com/in/yourprofile"
+        href="https://www.linkedin.com/in/suliman-shah"
         target="_blank"
         rel="noreferrer"
       >
         <FaLinkedin size={30} />
       </a>
-      <a href="https://github.com/yourprofile" target="_blank" rel="noreferrer">
+      <a
+        href="https://github.com/suliman-shah"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FaGithub size={30} />
       </a>
-      <a href="https://wa.me/your-number" target="_blank" rel="noreferrer">
+      <a href="https://wa.me/923119972296" target="_blank" rel="noreferrer">
         <FaWhatsapp size={30} />
       </a>
       <a
@@ -37,7 +41,7 @@ const SocialIcons = () => {
         <FaInstagram size={30} />
       </a>
       <a
-        href="https://www.facebook.com/yourprofile"
+        href="https://www.facebook.com/suleman.shah.259191"
         target="_blank"
         rel="noreferrer"
       >

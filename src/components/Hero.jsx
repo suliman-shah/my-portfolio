@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="hero-content">
         <motion.img
           src={profile}
-          alt="Suleman Shah"
+          alt="Suliman Shah"
           className="profile-pic"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
@@ -18,24 +18,27 @@ const Hero = () => {
           whileHover={{ scale: 1.1, rotate: 5 }}
         />
 
-        <motion.h1
+        <h1>Hi, I'm Suliman Shah</h1>
+
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
+          className="animated-titles"
         >
           <TypeAnimation
             sequence={[
-              "Hi, I'm Suleman Shah",
-              2000,
               "MERN Stack Developer",
               2000,
-              "React.js Enthusiast",
+              "React.js Developer",
+              2000,
+              "Full Stack Developer",
               2000,
             ]}
             speed={50}
             repeat={Infinity}
           />
-        </motion.h1>
+        </motion.div>
 
         {/* Social Icons just below animated text */}
         <SocialIcons />

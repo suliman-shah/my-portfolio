@@ -6,7 +6,12 @@ const skills = [
   { name: "Node.js", level: 85 },
   { name: "MongoDB", level: 80 },
   { name: "JavaScript", level: 95 },
-  { name: "CSS / Sass", level: 85 },
+  { name: "Express.js", level: 85 },
+  { name: "TypeScript", level: 85 },
+  { name: "Git", level: 80 },
+  { name: "MySQL", level: 85 },
+  { name: "REST API", level: 85 },
+  { name: "API Integration", level: 85 },
 ];
 
 const Skills = () => {
