@@ -18,17 +18,16 @@ const Contact = () => {
     e.preventDefault();
 
     // Send email using EmailJS
-    emailjs;
     emailjs
       .send(
-        "service_23qt47r", // from EmailJS
-        "template_2afvxcb", // from EmailJS
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           from_name: `${formData.firstName} ${formData.lastName}`,
           from_email: formData.email,
           message: formData.message,
         },
-        "1HJfXJUbeZAvmGC-B" // EmailJS public key
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
