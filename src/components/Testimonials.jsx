@@ -7,7 +7,7 @@ const Testimonials = () => {
     {
       name: "Fakhruddin",
       position: "department coordinator at university of Malakand",
-      text: "Suleman delivered exceptional results on our web application project. His technical expertise and attention to detail made him a valuable asset to our team.",
+      text: "Suleman delivered exceptional results on our web application project(QuantiFi). His technical expertise and attention to detail made him a valuable asset to our team.",
       image: "/testimonial1.jpg",
     },
     // {

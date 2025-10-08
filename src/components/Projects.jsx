@@ -14,7 +14,15 @@ const Projects = () => {
     {
       name: "Construction Project Management System",
       desc: "Developed a full-stack web application using React, Node.js, and MySQL for project management. Designed and implemented a database schema with efficient data relationships and SQL queries. Built RESTful APIs for backend services and integrated them with the frontend application. Implemented CRUD operations, data validation, and error handling following best practices.",
-      tech: ["Node.js", "MongoDB", "Express", "React"],
+      tech: [
+        "Node.js",
+        "MySQL",
+        "Express.js",
+        "React.js",
+        "CSS",
+        "JavaScript",
+        "HTML",
+      ],
       preview: "/project2.jpg",
       demo: "https://construction-project-management-system-c75v.vercel.app/",
       github:
@@ -23,9 +31,19 @@ const Projects = () => {
     {
       name: "QuantiFi",
       desc: "QuantiFi is a modern React-based web application designed to streamline and enhance the quantification and evaluation process for recruiters. The platform provides intuitive tools for assessing candidate skills, calculating performance metrics, and generating actionable insights to assist in data-driven hiring decisions.",
-      tech: ["JavaScript", "HTML5", "CSS3", "API"],
+      tech: [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "API",
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Bootstrap",
+      ],
       preview: "/project3.jpg",
-      demo: "#",
+      demo: "/quantfi.png",
       github: "https://github.com/suliman-shah/QuantiFi",
     },
   ];

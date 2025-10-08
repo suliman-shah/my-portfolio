@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="nav-container">
         {/* Logo with gradient effect */}
         <div className="logo">
-          <span className="logo-primary">Suleman</span>
+          <span className="logo-primary">Suliman</span>
           <span className="logo-secondary">Shah</span>
         </div>
 
@@ -76,7 +76,7 @@ const Navbar = () => {
               className="btn-nav"
               onClick={handleLinkClick}
             >
-              Resume
+              Download Resume
             </a>
           </li>
         </ul>
