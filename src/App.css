@@ -774,8 +774,8 @@ html {
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-/* Mobile Responsive Navbar */
-@media (max-width: 768px) {
+/* Mobile Responsive Navbar (expanded breakpoint to handle wider tablet screens) */
+@media (max-width: 1000px) {
   .navbar {
     padding: 0.8rem 1rem;
   }
@@ -784,8 +784,9 @@ html {
     top: 0;
     right: -100%;
     height: auto;
-    max-height: 400px;
-    width: 80%;
+    max-height: 90vh;
+    /* set a fixed menu width so buttons (Resume) are fully visible */
+    width: 360px;
     flex-direction: column;
     background: rgba(17, 17, 17, 0.98);
     backdrop-filter: blur(10px);
@@ -794,6 +795,7 @@ html {
     transition: right 0.3s ease;
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
     border-bottom-left-radius: 20px;
+    z-index: 999;
   }
   .nav-links.open {
     right: 0;
@@ -806,6 +808,9 @@ html {
     display: block;
     padding: 0.6rem 0;
     width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .nav-links li:last-child {
     margin-top: 0.5rem;
@@ -813,9 +818,9 @@ html {
   .nav-links li:last-child .btn-nav {
     display: inline-block;
     width: auto;
-    min-width: 120px;
+    min-width: 140px;
     padding: 0.5rem 1.2rem;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     background: linear-gradient(90deg, #00ffe0, #00c2b8);
     color: #000;
   }
@@ -824,7 +829,7 @@ html {
     z-index: 1000;
   }
   .logo {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 
