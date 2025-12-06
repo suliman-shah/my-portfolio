@@ -7,26 +7,26 @@ const Experience = () => {
 
   const experiences = [
     // Commented out experience entries for now
-    // {
-    //   title: "Full Stack Developer",
-    //   company: "TechCorp Solutions",
-    //   duration: "2023 - Present",
-    //   description: [
-    //     "Developed and maintained multiple full-stack web applications using MERN stack",
-    //     "Implemented responsive designs and modern UI/UX practices",
-    //     "Collaborated with cross-functional teams to deliver high-quality solutions",
-    //   ],
-    // },
-    // {
-    //   title: "Frontend Developer",
-    //   company: "Web Innovators",
-    //   duration: "2022 - 2023",
-    //   description: [
-    //     "Built responsive and interactive web interfaces using React.js",
-    //     "Optimized application performance and loading times",
-    //     "Worked with REST APIs and state management solutions",
-    //   ],
-    // },
+    {
+      title: "Full Stack Developer",
+      company: "TechCorp Solutions",
+      duration: "2023 - Present",
+      description: [
+        "Developed and maintained multiple full-stack web applications using MERN stack",
+        "Implemented responsive designs and modern UI/UX practices",
+        "Collaborated with cross-functional teams to deliver high-quality solutions",
+      ],
+    },
+    {
+      title: "Frontend Developer",
+      company: "Web Innovators",
+      duration: "2022 - 2023",
+      description: [
+        "Built responsive and interactive web interfaces using React.js",
+        "Optimized application performance and loading times",
+        "Worked with REST APIs and state management solutions",
+      ],
+    },
   ];
 
   const education = [
@@ -43,31 +43,31 @@ const Experience = () => {
       degree: "FSc Pre-Engineering  ",
       institution: "Islamia Model College Timergara,  B.I.S.E Malakand ",
       duration: "2019 - 2021",
-      description: [" "],
+      description: ["Completed FSc Pre-Engineering with a grade of A-1."],
     },
   ];
 
   const certificates = [
-    // {
-    //   title: "Meta Frontend Developer Professional Certificate",
-    //   issuer: "Meta (formerly Facebook)",
-    //   date: "2023",
-    //   description: [
-    //     "Advanced React.js development",
-    //     "Modern frontend practices and patterns",
-    //     "Performance optimization techniques",
-    //   ],
-    // },
-    // {
-    //   title: "AWS Certified Developer - Associate",
-    //   issuer: "Amazon Web Services",
-    //   date: "2022",
-    //   description: [
-    //     "Cloud architecture and deployment",
-    //     "AWS services and best practices",
-    //     "Serverless application development",
-    //   ],
-    // },
+    {
+      title: "Meta Frontend Developer Professional Certificate",
+      issuer: "Meta (formerly Facebook)",
+      date: "2023",
+      description: [
+        "Advanced React.js development",
+        "Modern frontend practices and patterns",
+        "Performance optimization techniques",
+      ],
+    },
+    {
+      title: "AWS Certified Developer - Associate",
+      issuer: "Amazon Web Services",
+      date: "2022",
+      description: [
+        "Cloud architecture and deployment",
+        "AWS services and best practices",
+        "Serverless application development",
+      ],
+    },
   ];
 
   const tabVariants = {

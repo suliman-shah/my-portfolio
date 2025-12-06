@@ -42,6 +42,8 @@
   overflow: hidden;
   border: 1px solid rgba(0, 255, 224, 0.1);
   transition: all 0.3s ease;
+  text-align: center;
+  word-break: break-word;
 }
 
 .testimonial-card:hover {
@@ -63,6 +65,8 @@
   line-height: 1.6;
   margin-bottom: 2rem;
   font-style: italic;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .testimonial-author {
@@ -120,10 +124,28 @@
   .testimonials-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+    padding: 0 0.5rem;
   }
 
   .testimonial-card {
     padding: 1.5rem;
+  }
+
+  .testimonial-text {
+    font-size: 1rem;
+  }
+
+  .author-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .author-info h4 {
+    font-size: 1rem;
+  }
+
+  .author-info p {
+    font-size: 0.8rem;
   }
 }
 
@@ -217,6 +239,9 @@
   padding: 2rem;
   border: 1px solid rgba(0, 255, 224, 0.1);
   transition: all 0.3s ease;
+  text-align: left;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .timeline-content:hover {
@@ -357,6 +382,7 @@
   overflow: hidden;
   border: 1px solid rgba(0, 255, 224, 0.1);
   transition: all 0.3s ease;
+  word-break: break-word;
 }
 
 .service-card:hover {
@@ -381,12 +407,15 @@
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: #fff;
+  word-break: break-word;
 }
 
 .service-card p {
   color: #aaa;
   line-height: 1.6;
   margin-bottom: 1rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .service-bg {
@@ -412,6 +441,19 @@
   .services-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .service-card {
+    padding: 1.5rem;
+  }
+
+  .service-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .service-card p {
+    font-size: 0.95rem;
   }
 }
 
@@ -1114,10 +1156,10 @@ section::before {
 }
 
 .about-text {
-  text-align: left;
-  max-width: 750px;
+  text-align: center;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .about-text p {
@@ -1126,8 +1168,10 @@ section::before {
   color: #ccc;
   margin-bottom: 1.5rem;
   letter-spacing: 0.01em;
-  text-align: justify;
+  text-align: center;
   hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .highlight-grid {
@@ -1274,15 +1318,34 @@ section::before {
 
   .about h2 {
     font-size: 2rem;
+    margin-bottom: 2rem;
   }
 
-  .highlight-grid {
-    grid-template-columns: 1fr;
+  .about-text {
+    padding: 0 1rem;
+    max-width: 100%;
   }
 
   .about-text p {
     font-size: 1rem;
-    line-height: 1.6;
+    text-align: center;
+    line-height: 1.7;
+  }
+
+  .section-header {
+    padding: 0 0.5rem;
+  }
+
+  .section-header h2 {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
+  .highlight-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -1446,6 +1509,14 @@ section::before {
 .section-header {
   text-align: center;
   margin-bottom: 4rem;
+  padding: 0 1rem;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  word-break: break-word;
+  letter-spacing: -0.02em;
 }
 
 .projects h2 {
@@ -1456,12 +1527,15 @@ section::before {
   background-clip: text;
   color: transparent;
   display: inline-block;
+  word-break: break-word;
 }
 
 .section-subtitle {
   color: #888;
   font-size: 1.1rem;
   font-weight: 400;
+  letter-spacing: 0.02em;
+  word-break: break-word;
 }
 
 .project-grid {
@@ -1549,6 +1623,9 @@ section::before {
   line-height: 1.6;
   margin-bottom: 2rem;
   flex-grow: 1;
+  text-align: left;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .project-links {
@@ -1615,11 +1692,24 @@ section::before {
 
   .project-grid {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
+    padding: 0 0.5rem;
   }
 
   .project-card {
     min-height: auto;
+  }
+
+  .project-content {
+    padding: 1.5rem;
+  }
+
+  .project-header h3 {
+    font-size: 1.2rem;
+  }
+
+  .project-description {
+    font-size: 0.95rem;
   }
 
   .project-links {
