@@ -1504,6 +1504,8 @@ section::before {
     rgba(0, 255, 224, 0.02) 50%,
     rgba(0, 0, 0, 0) 100%
   );
+  clear: both;
+  overflow: hidden;
 }
 
 .section-header {
@@ -1544,6 +1546,7 @@ section::before {
   gap: 2.5rem;
   max-width: 1400px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .project-card {
@@ -1684,6 +1687,21 @@ section::before {
 @media (max-width: 768px) {
   .projects {
     padding: 4rem 1rem;
+    margin-top: 2rem;
+    clear: both;
+  }
+
+  .section-header {
+    margin-bottom: 3rem;
+    padding: 0 0.5rem;
+  }
+
+  .section-header h2 {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
   }
 
   .projects h2 {
@@ -1698,6 +1716,7 @@ section::before {
 
   .project-card {
     min-height: auto;
+    margin-bottom: 1rem;
   }
 
   .project-content {
@@ -1715,6 +1734,7 @@ section::before {
   .project-links {
     justify-content: center;
     gap: 0.8rem;
+    flex-wrap: wrap;
   }
 
   .project-links a {
