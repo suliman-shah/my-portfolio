@@ -1543,10 +1543,11 @@ section::before {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 3rem;
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 1rem;
+  row-gap: 4rem;
 }
 
 .project-card {
@@ -1625,7 +1626,7 @@ section::before {
 .project-description {
   color: #aaa;
   line-height: 1.6;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   flex-grow: 1;
   text-align: left;
   word-break: break-word;
@@ -1723,14 +1724,14 @@ section::before {
 
   .project-grid {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 3rem;
+    row-gap: 5rem;
     padding: 0 0.5rem;
   }
 
   .project-card {
     min-height: auto;
-    margin-bottom: 3rem;
-    overflow: visible;
+    margin-bottom: 0;
   }
 
   .project-content {
@@ -1759,7 +1760,7 @@ section::before {
 
   .project-description {
     font-size: 0.95rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     line-height: 1.5;
   }
 
@@ -1778,9 +1779,13 @@ section::before {
 }
 
 @media (max-width: 480px) {
+  .project-grid {
+    gap: 2.5rem;
+    row-gap: 4rem;
+  }
+
   .project-card {
-    margin-bottom: 2.5rem;
-    overflow: visible;
+    margin-bottom: 0;
   }
 
   .project-content {
@@ -1808,7 +1813,7 @@ section::before {
 
   .project-description {
     font-size: 0.85rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
     line-height: 1.4;
   }
 
