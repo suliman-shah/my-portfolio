@@ -1557,8 +1557,7 @@ section::before {
   overflow: hidden;
   border: 1px solid rgba(0, 255, 224, 0.1);
   backdrop-filter: blur(10px);
-  min-height: 320px;
-  padding-bottom: 1rem;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
 }
@@ -1635,6 +1634,8 @@ section::before {
   display: flex;
   gap: 1rem;
   margin-top: auto;
+  flex-wrap: wrap;
+  padding-top: 1rem;
 }
 
 .project-links a {
@@ -1649,6 +1650,7 @@ section::before {
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  white-space: nowrap;
 }
 
 .project-links a svg {
@@ -1716,11 +1718,11 @@ section::before {
 
   .project-card {
     min-height: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .project-content {
-    padding: 1.5rem;
+    padding: 1.25rem;
   }
 
   .project-header h3 {
@@ -1732,7 +1734,7 @@ section::before {
   }
 
   .project-links {
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.8rem;
     flex-wrap: wrap;
   }
